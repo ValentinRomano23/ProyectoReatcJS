@@ -1,0 +1,219 @@
+.item-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.main-itemList {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 80%;
+}
+
+.card-item {
+    margin: 10px 10px;
+    width: 11rem;
+    border: none;
+    box-shadow: rgb(255, 234, 234) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card-item:hover {
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    cursor: grabbing;
+}
+
+.card-item img {
+    width: 100%;
+    height: 100%;
+    padding: 0.4rem;
+}
+
+.card-detail {
+    box-shadow: rgb(255, 234, 234) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 14rem;
+}
+
+.itemList-prod {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer-main {
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    flex: 1;
+}
+
+.hr-footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.hr-footer-two {
+    width: 60%;
+}
+
+.terms {
+    display: flex;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+/*  */
+/* CART */
+.cart-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 80%;
+    border: solid 1px black;
+}
+
+.body-item {
+    display: flex;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.body-item img {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+    justify-content: center;
+}
+
+.items_body {
+    margin: 0rem auto;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cart-map {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+/*  */
+/* RESPONSIVE MOBILE */
+@media only screen and (max-width: 768px) {
+    .main-itemList {
+        width: 80%;
+    }
+
+    .card-item {
+        display: flex;
+        width: 8rem;
+        margin: 5px auto;
+        justify-content: center;
+    }
+
+    .card-detail {
+        width: 12rem;
+    }
+
+    .card-title {
+        font-size: 0.8rem;
+    }
+
+    .card-text {
+        font-size: 0.6rem;
+    }
+
+    .title-h1 h1 {
+        font-size: 1rem;
+    }
+
+    .btn-verMas {
+        display: flex;
+        width: 60%;
+        text-align: center;
+        font-size: 0.6rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem auto;
+        width: 80%;
+        border: solid 2px black;
+    }
+
+    .body-item {
+        display: flex;
+        padding: 0.5rem;
+        margin: 0.5rem auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+    .body-item img {
+        width: 4rem;
+        height: 4rem;
+        padding: 0.5rem;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .items_body {
+        margin: 0rem;
+        padding: 0.2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart-map {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 5px auto;
+        padding: 10px;
+    }
+
+    .cart-map h3 {
+        font-size: 1rem;
+    }
+
+    .cart-map h4 {
+        font-size: 0.8rem;
+    }
+}
